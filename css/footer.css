@@ -1,0 +1,13 @@
+.page-footer { padding: 100px 0; background-color: #2e2f42; }
+.footer-logo { display: inline-block; margin-bottom: 16px; }
+.footer-logo .logo-accent { color: #f4f4fd; }
+.footer-text { width: 264px; font-size: 16px; line-height: 1.5; letter-spacing: .02em; color: #f4f4fd; }
+
+.footer-container{display:flex;align-items:baseline}
+.footer-social{margin-left:120px}
+.footer-social-title{color:#fff;font-size:16px;font-weight:500;line-height:1.5;letter-spacing:.02em;margin-bottom:16px}
+.footer-social-list{gap:16px}
+.footer-social-link:hover,.footer-social-link:focus{background-color:#31d0aa}
+
+.footer-social-icon { display: block; flex-shrink: 0; }
+.footer-social-link:focus-visible { outline: 2px solid #f4f4fd; outline-offset: 2px; }

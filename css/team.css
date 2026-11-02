@@ -1,0 +1,20 @@
+
+.team {background-color:#f4f4fd}
+.team-title {margin-bottom:72px;color:#2e2f42;font-size:36px;line-height:1.11;letter-spacing:.02em;text-align:center;text-transform:capitalize}
+.team-list {display:flex;gap:24px}
+.team-item {width:calc((100% - 72px)/4);background:#fff;border-radius:0 0 4px 4px;overflow:hidden;box-shadow:0 2px 1px rgba(46,47,66,.08),0 1px 1px rgba(46,47,66,.16),0 1px 6px rgba(46,47,66,.08)}
+.team-card-content {padding:32px 16px}
+.team-name {margin-bottom:8px;color:#2e2f42;text-align:center;font-size:20px;font-weight:500;line-height:1.2;letter-spacing:.02em}
+.team-role {margin-bottom:8px;text-align:center;font-size:16px;line-height:1.5;letter-spacing:.02em}
+.team-social-list,.footer-social-list {display:flex;justify-content:center;gap:24px}
+.team-social-link,.footer-social-link {display:flex;justify-content:center;align-items:center;width:40px;height:40px;background-color:#4d5ae5;border-radius:50%;transition:background-color 250ms cubic-bezier(.4,0,.2,1)}
+.team-social-link:hover,.team-social-link:focus,.footer-social-link:hover,.footer-social-link:focus {background-color:#404bbf}
+.team-social-icon,.footer-social-icon {fill:#f4f4fd;width:16px;height:16px}
+
+/* Team social icons: 40px circles and centered SVG glyphs */
+.team-social-icon { display: block; flex-shrink: 0; }
+.team-social-link:focus-visible { outline: 2px solid #2e2f42; outline-offset: 2px; }
+
+/* Social glyphs: crop original IcoMoon 32px artboard to the visible mark. */
+.team-social-icon,.footer-social-icon { width:24px; height:24px; display:block; flex-shrink:0; }
+.team-social-link,.footer-social-link { flex-shrink:0; padding:8px; }

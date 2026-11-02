@@ -1,0 +1,7 @@
+.features-list { display: flex; gap: 24px; }
+.features-item { width: calc((100% - 72px) / 4); }
+.features-subtitle { margin-bottom: 8px; color: #2e2f42; font-weight: 500; font-size: 20px; line-height: 1.2; letter-spacing: .02em; }
+.features-text { font-size: 16px; line-height: 1.5; letter-spacing: .02em; }
+
+.features-icon-box{display:flex;align-items:center;justify-content:center;height:112px;border:1px solid #8e8f99;border-radius:4px;background:#f4f4fd;margin-bottom:8px}
+.features-icon{width:64px;height:64px}
