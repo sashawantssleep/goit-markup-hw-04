@@ -16,5 +16,5 @@
 .team-social-link:focus-visible { outline: 2px solid #2e2f42; outline-offset: 2px; }
 
 /* Social glyphs: crop original IcoMoon 32px artboard to the visible mark. */
-.team-social-icon,.footer-social-icon { width:24px; height:24px; display:block; flex-shrink:0; }
-.team-social-link,.footer-social-link { flex-shrink:0; padding:8px; }
+.team-social-icon,.footer-social-icon { width:16px; height:16px; display:block; flex-shrink:0; }
+.team-social-link,.footer-social-link { flex-shrink:0; padding:0; }

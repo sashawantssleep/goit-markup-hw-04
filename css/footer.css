@@ -3,7 +3,7 @@
 .footer-logo .logo-accent { color: #f4f4fd; }
 .footer-text { width: 264px; font-size: 16px; line-height: 1.5; letter-spacing: .02em; color: #f4f4fd; }
 
-.footer-container{display:flex;align-items:baseline}
+.footer-container{display:flex;align-items:flex-start}
 .footer-social{margin-left:120px}
 .footer-social-title{color:#fff;font-size:16px;font-weight:500;line-height:1.5;letter-spacing:.02em;margin-bottom:16px}
 .footer-social-list{gap:16px}
