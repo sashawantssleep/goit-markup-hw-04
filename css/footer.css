@@ -11,3 +11,6 @@
 
 .footer-social-icon { display: block; flex-shrink: 0; }
 .footer-social-link:focus-visible { outline: 2px solid #f4f4fd; outline-offset: 2px; }
+
+/* Footer glyphs are 24×24; circular links remain 40×40. */
+.footer-social-icon { width: 24px; height: 24px; }

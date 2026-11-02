@@ -9,12 +9,12 @@
 .team-social-list,.footer-social-list {display:flex;justify-content:center;gap:24px}
 .team-social-link,.footer-social-link {display:flex;justify-content:center;align-items:center;width:40px;height:40px;background-color:#4d5ae5;border-radius:50%;transition:background-color 250ms cubic-bezier(.4,0,.2,1)}
 .team-social-link:hover,.team-social-link:focus,.footer-social-link:hover,.footer-social-link:focus {background-color:#404bbf}
-.team-social-icon,.footer-social-icon {fill:#f4f4fd;width:16px;height:16px}
+.team-social-icon {fill:#f4f4fd;width:16px;height:16px}
 
 /* Team social icons: 40px circles and centered SVG glyphs */
 .team-social-icon { display: block; flex-shrink: 0; }
 .team-social-link:focus-visible { outline: 2px solid #2e2f42; outline-offset: 2px; }
 
 /* Social glyphs: crop original IcoMoon 32px artboard to the visible mark. */
-.team-social-icon,.footer-social-icon { width:16px; height:16px; display:block; flex-shrink:0; }
+.team-social-icon { width:16px; height:16px; display:block; flex-shrink:0; }
 .team-social-link,.footer-social-link { flex-shrink:0; padding:0; }
