@@ -14,3 +14,6 @@
 
 /* Footer glyphs are 24×24; circular links remain 40×40. */
 .footer-social-icon { width: 24px; height: 24px; }
+
+/* Explicit light fill required for footer SVG icons. */
+.footer-social-icon { fill: #f4f4fd; color: #f4f4fd; }
